@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Roboto Thin'), local('Roboto-Thin'), 
+  url(../fonts/robotot.woff)
+  format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), 
+  url(../fonts/robotol.woff)
+  format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'), url(../fonts/roboto.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Roboto Medium'), local('Roboto-Medium'), url(../fonts/robotom.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(../fonts/robotob.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Italic'), local('Roboto-Italic'), url(../fonts/robotoi.woff) format('woff');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url(../fonts/robotoim.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'competency';
+  src:url('../fonts/competency.eot?-vyswgi');
+  src:url('../fonts/competency.eot?#iefix-vyswgi') format('embedded-opentype'),
+    url('../fonts/competency.woff?-vyswgi') format('woff'),
+    url('../fonts/competency.ttf?-vyswgi') format('truetype'),
+    url('../fonts/competency.svg?-vyswgi#competency') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="competency-"], [class*=" competency-"] {
+  font-family: 'competency';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.competency-brand:before {
+  content: "\e600";
+  font-size: 2.6em;
+}
